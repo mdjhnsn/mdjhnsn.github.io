@@ -8,7 +8,8 @@
     <meta name="keywords"
           content="Michael, Johnson, scientist, developer, data, engineer, python, SQL, machine learning, statistics">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/creative.min.css" type="text/css">
     <link rel="stylesheet" href=css/normalize.css type="text/css">
     <link rel="stylesheet" href=css/skeleton.css type="text/css">
     <link rel="stylesheet" href=css/spinner.css type="text/css">
@@ -18,41 +19,43 @@
 <body>
 
 <header id="header">
-    <div class="container">
-        <div class="row">
-            <div class="twelve columns">
-                <h1 class="text-center">Michael Johnson</h1>
-            </div>
+    <div class="row" id="home">
+        <div class="twelve columns">
+            <h1 class="text-center">Michael Johnson</h1>
         </div>
-        <div class="row">
-            <div class="twelve columns">
-                <h5 class="text-center">Storyteller + Economist + Statistician + Engineer</h5>
-                <img src=img/icon-science-small2.svg class="icon center" alt="science"/>
-            </div>
+    </div>
+    <div class="row">
+        <div class="twelve columns">
+            <h5 class="text-center">Storyteller + Economist + Statistician + Engineer</h5>
+            <img src=img/icon-science-small2.svg class="icon center" alt="science"/>
         </div>
     </div>
 </header>
-
 <nav class="navbar">
     <div class="container">
         <div class="row">
             <div class="two columns">
-                <a class="navbar-link" href="#resume-employment">
+                <a class="navbar-link" href="#home">
+                    <p class="text-center">Home</p>
+                </a>
+            </div>
+            <div class="two columns">
+                <a class="navbar-link" href="#experience">
                     <p class="text-center">Experience</p>
                 </a>
             </div>
             <div class="two columns">
-                <a class="navbar-link" href="#resume-education">
+                <a class="navbar-link" href="#education">
                     <p class="text-center">Education</p>
                 </a>
             </div>
             <div class="two columns">
-                <a class="navbar-link" href="#resume-skills">
+                <a class="navbar-link" href="#skills">
                     <p class="text-center">Skills</p>
                 </a>
             </div>
             <div class="two columns">
-                <a class="navbar-link" href="#content-contact">
+                <a class="navbar-link" href="#contact">
                     <p class="text-center">Contact</p>
                 </a>
             </div>
@@ -64,14 +67,13 @@
         </div>
     </div>
 </nav>
-
-<div class="container" id="resume-employment">
-    <div class="row">
-        <div class="twelve columns">
-            <h4 class="section-title">Experience</h4>
-            <div class="line"></div>
-        </div>
+<div class="row" id="experience">
+    <div class="twelve columns">
+        <h4 class="section-title">Experience</h4>
+        <div class="line"></div>
     </div>
+</div>
+<div class="container">
     <div class="row">
         <div class="twelve columns">
             <p>
@@ -112,126 +114,125 @@
             </p>
         </div>
     </div>
-    <div>
-        <div class="container" id="resume-education">
-            <div class="row">
-                <div class="twelve columns">
-                    <h4 class="section-title">Education</h4>
-                    <div class="line"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="twelve columns">
-                    <p>
-                        <strong>MS Applied Statistics</strong>
-                        <span class="u-pull-right">2017</span>
-                        <br>
-                        <span class="italic">Texas A&M University</span>
-                        <br>
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="twelve columns">
-                    <p>
-                        <strong>MA International Economics</strong>
-                        <span class="u-pull-right">2013</span>
-                        <br>
-                        <span class="italic">The George Washington University</span>
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="twelve columns">
-                    <p>
-                        <strong>BA Literature</strong>
-                        <span class="u-pull-right">2004</span>
-                        <br>
-                        <span class="italic">University of California, Santa Cruz</span>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div>
-        <div class="container" id="resume-skills">
-            <div class="row">
-                <div class="twelve columns">
-                    <h4 class="section-title">Technical Skills</h4>
-                    <div class="line"></div>
-                </div>
-            </div>
-            <table>
-                <tbody>
-                <tr>
-                    <td><strong>Programming</strong></td>
-                    <td>Python, R, JavaScript, Bash, Scala</td>
-                </tr>
-                <tr>
-                    <td><strong>Web</strong></td>
-                    <td>HTML, CSS/SCSS, Flask, Node.js, jQuery, Jinja</td>
-                </tr>
-                <tr>
-                    <td><strong>Databases/Storage</strong></td>
-                    <td>PostgreSQL, Redshift, MySQL, S3, Elasticsearch, HDFS, Kafka, Redis</td>
-                </tr>
-                <tr>
-                    <td><strong>Analysis/Modeling</strong></td>
-                    <td>pandas, numpy, scikit-learn, SciPy, Keras, R-tidyverse</td>
-                </tr>
-                <tr>
-                    <td><strong>Computation</strong></td>
-                    <td>Spark, Hadoop, MPI, OpenMP, blas/lapack</td>
-                </tr>
-                <tr>
-                    <td><strong>Productivity</strong></td>
-                    <td>git, Jupyter/IPython, PyCharm, LaTeX, JIRA</td>
-                </tr>
-                <tr>
-                    <td><strong>Software</strong></td>
-                    <td>Test driven development, scalable architecture design, code review, agile</td>
-                </tr>
-                <tr>
-                    <td><strong>Machine Learning</strong></td>
-                    <td>Generalized Linear Models, Neural Networks, Clustering, Tree Models, PCA, NLP, SVMs
-                    </td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-    <div class="container" id="content-contact">
-        <h2>Contact</h2>
+</div>
+<div class="row" id="education">
+    <div class="twelve columns">
+        <h4 class="section-title">Education</h4>
         <div class="line"></div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="twelve columns">
+            <p>
+                <strong>MS Applied Statistics</strong>
+                <span class="u-pull-right">2017</span>
+                <br>
+                <span class="italic">Texas A&M University</span>
+                <br>
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="twelve columns">
+            <p>
+                <strong>MA International Economics</strong>
+                <span class="u-pull-right">2013</span>
+                <br>
+                <span class="italic">The George Washington University</span>
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="twelve columns">
+            <p>
+                <strong>BA Literature</strong>
+                <span class="u-pull-right">2004</span>
+                <br>
+                <span class="italic">University of California, Santa Cruz</span>
+            </p>
+        </div>
+    </div>
+</div>
+
+    <div class="row" id="skills">
+        <div class="twelve columns">
+            <h4 class="section-title">Technical Skills</h4>
+            <div class="line"></div>
+        </div>
+    </div>
+<div class="container">
+    <table>
+        <tbody>
+        <tr>
+            <td><strong>Programming</strong></td>
+            <td>Python, R, JavaScript, Bash, Scala</td>
+        </tr>
+        <tr>
+            <td><strong>Web</strong></td>
+            <td>HTML, CSS/SCSS, Flask, Node.js, jQuery, Jinja</td>
+        </tr>
+        <tr>
+            <td><strong>Databases/Storage</strong></td>
+            <td>PostgreSQL, Redshift, MySQL, S3, Elasticsearch, HDFS, Kafka, Redis</td>
+        </tr>
+        <tr>
+            <td><strong>Analysis/Modeling</strong></td>
+            <td>pandas, numpy, scikit-learn, SciPy, Keras, R-tidyverse</td>
+        </tr>
+        <tr>
+            <td><strong>Computation</strong></td>
+            <td>Spark, Hadoop, MPI, OpenMP, blas/lapack</td>
+        </tr>
+        <tr>
+            <td><strong>Productivity</strong></td>
+            <td>git, Jupyter/IPython, PyCharm, LaTeX, JIRA</td>
+        </tr>
+        <tr>
+            <td><strong>Software</strong></td>
+            <td>Test driven development, scalable architecture design, code review, agile</td>
+        </tr>
+        <tr>
+            <td><strong>Machine Learning</strong></td>
+            <td>Generalized Linear Models, Neural Networks, Clustering, Tree Models, PCA, NLP, SVMs
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="row" id="contact">
+    <h2>Contact</h2>
+    <div class="line"></div>
+    <div class="row">
+        <div class="twelve columns">
+            <p class="text-center"><a href="mailto:mdjhnsn@gwu.edu" target="_blank"
+                                      class="blue">mdjhnsn@gwu.edu</a>
+            </p>
+            <p class="text-center"><a href="https://www.linkedin.com/in/data-arts-data-science" target="_blank"
+                                      class="blue">LinkedIn</a>
+            </p>
+            <p class="text-center"><a href="https://twitter.com/apanelofsky" target="_blank"
+                                      class="blue">Twitter</a>
+            </p>
+            <p class="text-center"><a href="https://github.com/mdjhnsn" target="_blank" class="blue">GitHub</a>
+            </p>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container">
         <div class="row">
             <div class="twelve columns">
-                <p class="text-center"><a href="mailto:mdjhnsn@gwu.edu" target="_blank"
-                                          class="blue">mdjhnsn@gwu.edu</a>
-                </p>
-                <p class="text-center"><a href="https://www.linkedin.com/in/data-arts-data-science" target="_blank"
-                                          class="blue">LinkedIn</a>
-                </p>
-                <p class="text-center"><a href="https://twitter.com/apanelofsky" target="_blank"
-                                          class="blue">Twitter</a>
-                </p>
-                <p class="text-center"><a href="https://github.com/mdjhnsn" target="_blank" class="blue">GitHub</a>
-                </p>
+                <p class="text-center footnote">Michael Johnson &copy 2020</p>
             </div>
         </div>
     </div>
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="twelve columns">
-                    <p class="text-center footnote">Michael Johnson &copy 2020</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+</footer>
 
-    <!-- Scripts -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src=js/site.js></script>
+<!-- Scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src=js/site.js></script>
 
 </body>
 </html>
