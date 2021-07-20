@@ -6,25 +6,58 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "Data Science Contractor",
+    cardImage: "assets/images/experience-page/Evolus.jpg",
+    place: "Evolus, Inc",
+    time: "(Nov 2020 - Jul 2021)",
+    desp: "<li>Developed mathematical models to frame business problems and align stakeholders on strategy.</li> " +
+        "<li>Segmented customers for model-based optimization of marketing communications.</li> " +
+        "<li>Integrated siloed data sources using Snowflake cloud data warehouse.</li>",
   },
   {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    title: "Data Science Consultant",
+    cardImage: "assets/images/experience-page/aviana.jpg",
+    place: "Aviana Global Technologies",
+    time: "(Jan 2019 - Oct 2020)",
+    desp: "<li>Reduced consumer churn using analytics for vision care company VSP Global.</li> " +
+        "<li>Improved return on data operations spend for testing authority Pearson Education</li> " +
+        "<li>Modeled artist popularity trends for media conglomerate iHeartMedia</li>",
   },
   {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp:"<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    title: "Senior Data Scientist",
+    cardImage: "assets/images/experience-page/mindbody.jpg",
+    place: "MINDBODY Software",
+    time: "(Apr 2019 - Dec 2019)",
+    desp: "<li>Architected ETL pipelines to run complex SQL queries against 17TB data warehouse.</li> " +
+        "<li>Helped implement rapid prototyping and agile methods for business analysis.</li> " +
+        "<li>Deployed batch scoring models and developed template workflows to assist junior analysts.</li>",
+  },
+  {
+    title: "Data Scientist",
+    cardImage: "assets/images/experience-page/hanover.jpg",
+    place: "Hanover Research",
+    time: "(Jul 2013 - Mar 2018)",
+    desp: "<li>Designed and managed complex market research projects.</li> " +
+        "<li>Analyzed large semi-structured datasets spanning a variety of industries.</li> " +
+        "<li>Trained and tested predictive models using Python and R.</li>",
+  },
+      {
+    title: "Research Economist",
+    cardImage: "assets/images/experience-page/treasury.jpg",
+    place: "US Treasury Department",
+    time: "(Jul 2012 - Jun 2013)",
+    desp: "<li>Forecast currency swaps and short-term financing rates.</li> " +
+        "<li>Conducted economic research on interest rates and foreign exchange.</li> " +
+        "<li>Monitored international financial markets using Bloomberg Terminal.</li>",
+  },
+  {
+    title: "Economist Assistant",
+    cardImage: "assets/images/experience-page/nber.jpg",
+    place: "National Bureau of Economic Research",
+    time: "(Oct 2011 - Jun 2012)",
+    desp: "<li>Constructed original datasets using primary source historical bond issuances.</li> " +
+        "<li>Supported data processing and analysis for Dr. Graciela Kaminsky.</li> " +
+        "<li>Drafted memos in Word; visualized data in Excel; made slides in PowerPoint.</li>",
   },
 ];
 
