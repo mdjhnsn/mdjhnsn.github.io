@@ -78,9 +78,9 @@ const showCards2 = () => {
               <span class="pre-heading">${place}</span><br>
               <span class="author">${time}</span>
             </p>
-            <ol>
+            <ul>
               ${desp}
-            </ol>
+            </ul>
           </header>
         </article>
       </div>
