@@ -12,7 +12,7 @@ const exp = [
     time: "(Nov 2020 - Jul 2021)",
     desp: "<li>Developed mathematical models to frame business problems and align on strategy.</li> " +
         "<li>Segmented customers for model-based optimization of marketing communications.</li> " +
-        "<li>Integrated siloed data sources using Snowflake cloud data warehouse.</li>",
+        "<li>Integrated siloed data sources using Snowflake cloud data warehouse.</li></ul>",
   },
   {
     title: "Data Science Consultant",
@@ -78,9 +78,9 @@ const showCards2 = () => {
               <span class="pre-heading">${place}</span><br>
               <span class="author">${time}</span>
             </p>
-            <ul>
+            <ol>
               ${desp}
-            </ul>
+            </ol>
           </header>
         </article>
       </div>
