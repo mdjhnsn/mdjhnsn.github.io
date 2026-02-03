@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume | Michael Johnson</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-name">Michael Johnson</span>
+                <span class="logo-title">Data Scientist</span>
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="resume.html" class="nav-link active">Resume</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Resume</h1>
+            <p>Senior Data Scientist with 10 years of experience in marketing measurement, production ML, and data infrastructure.</p>
+        </div>
+    </section>
+
+    <!-- Resume Content -->
+    <section class="resume-content">
+        <div class="container">
+            
+            <!-- Download Section -->
+            <div class="resume-download">
+                <p>Download my resume in your preferred format:</p>
+                <div class="download-buttons">
+                    <a href="../resumes/Michael_Johnson_Resume.pdf" class="btn btn-primary" download>Download PDF</a>
+                    <a href="../resumes/Michael_Johnson_Resume.docx" class="btn btn-secondary" download>Download DOCX</a>
+                </div>
+                <p style="margin-top: 16px; font-size: 14px; color: var(--text-gray);">Last updated: February 2026</p>
+            </div>
+
+            <!-- Resume Preview -->
+            <div class="resume-embed">
+                <div style="background: white; max-width: 800px; margin: 0 auto; padding: 48px; text-align: left; border-radius: 8px; box-shadow: var(--shadow);">
+                    
+                    <!-- Header -->
+                    <div style="text-align: center; margin-bottom: 32px; padding-bottom: 24px; border-bottom: 2px solid var(--primary);">
+                        <h1 style="font-size: 32px; margin-bottom: 8px;">Michael Johnson</h1>
+                        <p style="font-size: 18px; color: var(--secondary); font-weight: 600; margin-bottom: 16px;">Senior Data Scientist</p>
+                        <p style="font-size: 14px; color: var(--text-gray);">
+                            Orange County, CA | mchl.dvd.jhnsn@gmail.com | (949) 340-4330 | 
+                            <a href="https://linkedin.com/in/data-arts-data-science" target="_blank">LinkedIn</a>
+                        </p>
+                    </div>
+
+                    <!-- Summary -->
+                    <div style="margin-bottom: 28px;">
+                        <h2 style="font-size: 16px; text-transform: uppercase; letter-spacing: 1px; color: var(--primary); margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border);">Summary</h2>
+                        <p style="font-size: 15px; line-height: 1.6;">Senior Data Scientist with 10 years of experience building production ML systems for platforms serving 100M+ users. Expertise in marketing measurement (MMM, MTA, incrementality), Bayesian inference, causal attribution, and data infrastructure at scale. MS Statistics, MA Economics.</p>
+                    </div>
+
+                    <!-- Experience -->
+                    <div style="margin-bottom: 28px;">
+                        <h2 style="font-size: 16px; text-transform: uppercase; letter-spacing: 1px; color: var(--primary); margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border);">Experience</h2>
+                        
+                        <div style="margin-bottom: 20px;">
+                            <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px;">
+                                <h3 style="font-size: 16px; font-weight: 600;">Senior Data Scientist</h3>
+                                <span style="font-size: 14px; color: var(--text-gray);">Aug 2025 – Jan 2026</span>
+                            </div>
+                            <p style="font-size: 14px; color: var(--secondary); margin-bottom: 8px;">Fancy (Fintech) | Irvine, CA</p>
+                            <ul style="font-size: 14px; line-height: 1.6; padding-left: 20px; color: var(--text-dark);">
+                                <li>Architected Data Lakehouse using AWS DMS, S3, Glue, and Athena, eliminating production downtime risks</li>
+                                <li>Replicated 8 core schemas and 124 tables using Terraform, creating single source of truth for 2,500+ merchants</li>
+                                <li>Achieved 100% system availability for Finance, Product, and Marketing teams</li>
+                            </ul>
+                        </div>
+
+                        <div style="margin-bottom: 20px;">
+                            <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px;">
+                                <h3 style="font-size: 16px; font-weight: 600;">Senior Data Scientist</h3>
+                                <span style="font-size: 14px; color: var(--text-gray);">Oct 2021 – Jul 2025</span>
+                            </div>
+                            <p style="font-size: 14px; color: var(--secondary); margin-bottom: 8px;">Pluto TV (Paramount) | Los Angeles, CA</p>
+                            <ul style="font-size: 14px; line-height: 1.6; padding-left: 20px; color: var(--text-dark);">
+                                <li>Owned revenue and engagement forecasting across 30+ device types using Prophet and PySpark; reduced MAPE by 5%</li>
+                                <li>Established Bayesian A/B testing framework using PyMC, shortening SDLC by 20%</li>
+                                <li>Built churn prediction pipeline for 100M+ users using Ray on Databricks; increased retention ROI by 15%</li>
+                                <li>Deployed marketing pacing dashboards in Tableau; achieved 3% lift in marketing ROI through agile budget reallocation</li>
+                                <li>Administered shared data science infrastructure for 10-person team</li>
+                            </ul>
+                        </div>
+
+                        <div style="margin-bottom: 20px;">
+                            <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px;">
+                                <h3 style="font-size: 16px; font-weight: 600;">Data Scientist</h3>
+                                <span style="font-size: 14px; color: var(--text-gray);">2018 – 2021</span>
+                            </div>
+                            <p style="font-size: 14px; color: var(--secondary); margin-bottom: 8px;">Evolus Inc | Newport Beach, CA</p>
+                            <ul style="font-size: 14px; line-height: 1.6; padding-left: 20px; color: var(--text-dark);">
+                                <li>Deployed DBSCAN clustering for user segmentation; achieved 12% improvement in trial conversion</li>
+                                <li>Automated reporting pipelines via Apache Airflow; reduced processing from 48 hours to 4 hours</li>
+                                <li>Managed analytics for $10M monthly marketing budgets</li>
+                            </ul>
+                        </div>
+
+                        <div style="margin-bottom: 20px;">
+                            <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px;">
+                                <h3 style="font-size: 16px; font-weight: 600;">Data Scientist</h3>
+                                <span style="font-size: 14px; color: var(--text-gray);">2016 – 2018</span>
+                            </div>
+                            <p style="font-size: 14px; color: var(--secondary); margin-bottom: 8px;">Aviana Global Technologies | Santa Monica, CA</p>
+                            <ul style="font-size: 14px; line-height: 1.6; padding-left: 20px; color: var(--text-dark);">
+                                <li>Deployed XGBoost churn models achieving 18% reduction in customer churn</li>
+                                <li>Engineered data pipelines for 10M+ records on NVIDIA GPUs</li>
+                            </ul>
+                        </div>
+
+                        <div style="margin-bottom: 20px;">
+                            <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px;">
+                                <h3 style="font-size: 16px; font-weight: 600;">Data Scientist</h3>
+                                <span style="font-size: 14px; color: var(--text-gray);">2013 – 2016</span>
+                            </div>
+                            <p style="font-size: 14px; color: var(--secondary); margin-bottom: 8px;">MINDBODY Software | San Luis Obispo, CA</p>
+                            <ul style="font-size: 14px; line-height: 1.6; padding-left: 20px; color: var(--text-dark);">
+                                <li>Built Deep Learning retention models using Keras with 90% accuracy</li>
+                                <li>Validated $2M in strategic investments through predictive analytics</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Education -->
+                    <div style="margin-bottom: 28px;">
+                        <h2 style="font-size: 16px; text-transform: uppercase; letter-spacing: 1px; color: var(--primary); margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border);">Education</h2>
+                        <p style="font-size: 15px; margin-bottom: 8px;"><strong>MS Statistics</strong> — Texas A&M University</p>
+                        <p style="font-size: 15px; margin-bottom: 8px;"><strong>MA Economics</strong> — George Washington University</p>
+                        <p style="font-size: 15px;"><strong>BA Literature</strong> — UC Santa Cruz</p>
+                    </div>
+
+                    <!-- Skills -->
+                    <div style="margin-bottom: 28px;">
+                        <h2 style="font-size: 16px; text-transform: uppercase; letter-spacing: 1px; color: var(--primary); margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border);">Technical Skills</h2>
+                        <p style="font-size: 14px; line-height: 1.8;">
+                            <strong>Languages:</strong> Python, SQL, R, Spark/PySpark, C++, Bash<br>
+                            <strong>ML/Stats:</strong> PyMC, XGBoost, Prophet, PyTorch, Keras, Causal Inference, Bayesian Methods<br>
+                            <strong>Infrastructure:</strong> AWS (S3, Glue, Athena, DMS), Databricks, Snowflake, BigQuery, Terraform, Airflow, MLFlow<br>
+                            <strong>Marketing:</strong> MMM, MTA, Incrementality Testing, Adstock Modeling<br>
+                            <strong>Visualization:</strong> Tableau, Power BI, Streamlit, Plotly
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CTA Footer -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Let's Connect</h2>
+            <p>Interested in discussing opportunities?</p>
+            <div class="cta-buttons">
+                <a href="contact.html" class="btn btn-light">Contact Me</a>
+                <a href="https://linkedin.com/in/data-arts-data-science" target="_blank" class="btn btn-outline-light">LinkedIn Profile</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Michael Johnson. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
