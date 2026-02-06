@@ -314,6 +314,12 @@ a:hover {
     border-radius: 2px;
 }
 
+.section-subtitle {
+    text-align: center;
+    color: var(--text-gray);
+    margin-bottom: 48px;
+}
+
 /* Projects Section */
 .projects-section {
     padding: 100px 0;
