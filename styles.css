@@ -256,6 +256,20 @@ a:hover {
     flex-shrink: 0;
 }
 
+.profile-photo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: var(--shadow-lg);
+    display: block;
+}
+
+.profile-photo-about {
+    width: 250px;
+    height: 250px;
+}
+
 .photo-placeholder {
     width: 180px;
     height: 180px;
